@@ -1,6 +1,6 @@
 #### This repository contains the source code used for our research paper, "Malaria Parasite Detection in Microscopic Blood Smear Images Using Deep Learning Techniques." 
 
-#Abstract
+# Abstract
 
 Malaria remains a curable illness causing a significant number of deaths globally. Timely and accurate detection is crucial for prompt patient management. This research proposes a highly effective and precise Convolutional Neural Network (CNN) model designed specifically for detecting malaria parasites (MPD). Furthermore, two cutting-edge deep learning (DL) models, DenseNet121 and VGG16, were fine-tuned for MPD. The developed CNN model was trained using blood smear images and achieved notable performance: a classification accuracy of 96.66%, precision of 97.09%, F1-score of 96.56%, and sensitivity of 96.03%. A comprehensive analysis demonstrates that the proposed CNN model yields comparable accuracy to DenseNet121 and VGG16 while possessing notably fewer trainable parameters. This suggests that the proposed CNN model is more efficient and less complex than the pre-trained DenseNet121 and VGG16 models. Additionally, the proposed CNN technique surpasses the performance of three earlier investigations in MPD. Moreover, this paper presents heat maps as an explainable AI technique, highlighting significant regions and image patterns that significantly influence DL model decisions. Overall, the findings underscore the potential of DL algorithms in detecting malaria parasites, potentially aiding medical practitioners in administering timely treatments to millions affected by the disease.
 
@@ -8,26 +8,26 @@ Malaria remains a curable illness causing a significant number of deaths globall
 
 we implemented the code using Jupyter Notebook, which can be advantageous for those looking to replicate our experiments or learn from it.
 
-### Replication Process:
+## Replication Process:
 
 1- Clone the repository.
-
+```bash
 git clone https://github.com/RosmaelZidane/CNN-MPD.git
 
 cd CNN-MPD
-
+```
 2- Create a virtual environment.
-
+```bash
 python -m venv .myvenv
-
+```
 3- Activate the virtual environment.
-
+```bash
 source activate .myvenv
-
+```
 4- Install the necessary libraries.
-
+```bash
 pip install -r requirements.txt
-
+```
 5- Open Jupyter Notebook and select the appropriate Python interpreter.
 
 jupyter-notebook
@@ -41,8 +41,9 @@ By following these steps, you can replicate our experiments and verify the resul
 
 
 
-
-
+## Citation
+Kindly cite us using this if you find the work interesting and use it.
+```
 @inproceedings{foulefack2024malaria,
   title={Malaria Parasite Detection in Microscopic Blood Smear Images Using Deep Learning Techniques},
   author={Foulefack, Rosma{\"e}l Zidane Lekeufack and Akinyelu, Andronicus A and Ranirina, Dinna and Mpinda, Berthine N},
@@ -51,3 +52,4 @@ By following these steps, you can replicate our experiments and verify the resul
   year={2024},
   organization={IEEE}
 }
+```
