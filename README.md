@@ -1,4 +1,4 @@
-#### This repository contains the source code used for our research paper, "Malaria Parasite Detection in Microscopic Blood Smear Images Using Deep Learning Techniques." In this paper, we investigate the use of two pre-trained deep learning models, DenseNet121 and VGG-16, for detecting malaria parasites. Additionally, we propose a simpler CNN architecture for the same task, which has achieved results comparable to those of established models in the literature.
+#### This repository contains the source code used for our research paper, "Malaria Parasite Detection in Microscopic Blood Smear Images Using Deep Learning Techniques." 
 
 #Abstract
 
